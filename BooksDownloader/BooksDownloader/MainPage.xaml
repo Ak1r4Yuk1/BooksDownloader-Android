@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="BooksDownloader.MainPage">
+
+    <StackLayout Margin="10,10,10,10">
+        <Label Text="Inserisci Autore" HorizontalTextAlignment="Center" Padding="40" FontSize="20"></Label>
+        <Entry x:Name="autore" Placeholder="es: stephen-king" FontSize="20"></Entry>
+        <Label Text="Inserisci Titolo Libro" HorizontalTextAlignment="Center" Padding="40" FontSize="20"></Label>
+        <Entry x:Name="titolo" Placeholder="es: it" FontSize="20"></Entry>
+        <Button x:Name="bottone" Text="Download" Pressed="Bottone_Pressed"/>
+        <ProgressBar IsVisible="True"></ProgressBar>
+    </StackLayout>
+
+</ContentPage>

@@ -1,0 +1,49 @@
+{
+  "version": 2,
+  "dgSpecHash": "nvknzq4Jl2IbPmyFPHa8p8DAuF8XHaNaw597w0S3QSnDWquOl9Ra6ENkI+aZPO6oteSI3kItEkkJcnXzqDP8rA==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\akira\\source\\repos\\BooksDownloader\\BooksDownloader\\BooksDownloader\\BooksDownloader.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\akira\\.nuget\\packages\\downloadmanager\\0.1.0-beta\\downloadmanager.0.1.0-beta.nupkg.sha512",
+    "C:\\Users\\akira\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "C:\\Users\\akira\\.nuget\\packages\\microsoft.web.xdt\\2.1.0\\microsoft.web.xdt.2.1.0.nupkg.sha512",
+    "C:\\Users\\akira\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512",
+    "C:\\Users\\akira\\.nuget\\packages\\nuget.core\\2.14.0\\nuget.core.2.14.0.nupkg.sha512",
+    "C:\\Users\\akira\\.nuget\\packages\\system.numerics.vectors\\4.5.0\\system.numerics.vectors.4.5.0.nupkg.sha512",
+    "C:\\Users\\akira\\.nuget\\packages\\xam.plugins.downloadmanager\\1.4.0\\xam.plugins.downloadmanager.1.4.0.nupkg.sha512",
+    "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\xamarin.essentials\\1.6.1\\xamarin.essentials.1.6.1.nupkg.sha512",
+    "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\xamarin.forms\\5.0.0.2012\\xamarin.forms.5.0.0.2012.nupkg.sha512"
+  ],
+  "logs": [
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Il pacchetto 'Microsoft.Web.Xdt 2.1.0' è stato ripristinato mediante '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8' e non mediante il framework di destinazione del progetto '.NETStandard,Version=v2.0'. Questo pacchetto potrebbe non essere completamente compatibile con il progetto.",
+      "libraryId": "Microsoft.Web.Xdt",
+      "targetGraphs": [
+        ".NETStandard,Version=v2.0"
+      ]
+    },
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Il pacchetto 'NuGet.Core 2.14.0' è stato ripristinato mediante '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8' e non mediante il framework di destinazione del progetto '.NETStandard,Version=v2.0'. Questo pacchetto potrebbe non essere completamente compatibile con il progetto.",
+      "libraryId": "NuGet.Core",
+      "targetGraphs": [
+        ".NETStandard,Version=v2.0"
+      ]
+    },
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Il pacchetto 'Xam.Plugins.DownloadManager 1.4.0' è stato ripristinato mediante '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8' e non mediante il framework di destinazione del progetto '.NETStandard,Version=v2.0'. Questo pacchetto potrebbe non essere completamente compatibile con il progetto.",
+      "libraryId": "Xam.Plugins.DownloadManager",
+      "targetGraphs": [
+        ".NETStandard,Version=v2.0"
+      ]
+    }
+  ]
+}
